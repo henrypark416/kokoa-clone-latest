@@ -21,7 +21,7 @@
 .message-row {
   display: flex;
   margin-bottom: 25px;
-  width: 325px;
+  width: 500px;
   animation: fadeIn 0.4s linear;
 }
 .message-row img {
