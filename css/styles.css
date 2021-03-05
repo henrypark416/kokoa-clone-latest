@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+@import "reset.css";
+@import "variables.css";
+
+/*Components*/
+@import "css/components/badge.css";
+@import "css/components/status-bar.css";
+@import "css/components/nav-bar.css";
+@import "css/components/screen-header.css";
+@import "css/components/user-component.css";
+@import "css/components/icon-row.css";
+@import "css/components/alt-screen-header.css";
+@import "css/components/no-mobile.css";
+
+/*Screens*/
+@import "css/screens/login.css";
+@import "css/screens/friends.css";
+@import "css/screens/find.css";
+@import "css/screens/more.css";
+@import "css/screens/settings.css";
+@import "css/screens/chat.css";
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>13:37</span>
+      </div>
+      <div class="status-bar__column">
+        <span>39%</span>
+        <i class="fas fa-battery-half fa-lg"></i>
+        <i class="fas fa-bolt fa-sm"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <p class="welcome-header__text">
+        If you have a Kakao Clone Account, log in with your email.
+      </p>
+    </header>
+
+    <!-- No server so just use [method="get"] -->
+    <form action="friends.html" method="get" class="login-form">
+      <input name="email" type="email" placeholder="Email" required />
+      <input name="password" type="password" placeholder="Password" required />
+      <input type="submit" value="Log In" />
+      <input
+        type="button"
+        value="Sign Up"
+        onClick="location.href='development.html'"
+      />
+      <a href="development.html">Find Kakao Clone Account or Password</a>
+    </form>
+
+    <div class="no-mobile">
+      <span>Your screen is too big!</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/8307086f67.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
