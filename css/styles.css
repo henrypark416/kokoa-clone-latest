@@ -21,6 +21,7 @@
 @import "screens/settings.css";
 @import "screens/chat.css";
 @import "screens/quicknote.css";
+@import "screens/todo.css";
 
 body {
   font-family: "Roboto", sans-serif;
