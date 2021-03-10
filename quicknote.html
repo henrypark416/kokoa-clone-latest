@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Quick-Note</title>
+  </head>
+  <body class="quicknote-color">
+    <div class="quicknote-body">
+      <div class="status-bar quicknote-color">
+        <div class="status-bar__column">
+          <span>No Service</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>13:37</span>
+        </div>
+        <div class="status-bar__column">
+          <span>39%</span>
+          <i class="fas fa-battery-half fa-lg"></i>
+          <i class="fas fa-bolt fa-sm"></i>
+        </div>
+      </div>
+
+      <header class="alt-header tb-screen quicknote-color">
+        <div class="alt-header__column">
+          <a href="javascript:history.back()">
+            <i class="fas fa-angle-left fa-2x"></i
+          ></a>
+        </div>
+        <div class="alt-header__column">
+          <h1 class="alt-header__title">Quick Note</h1>
+        </div>
+        <div class="alt-header__column">
+          <i class="fas fa-search fa-lg"></i>
+          <i class="fas fa-bars fa-lg"></i>
+        </div>
+      </header>
+
+      <canvas class="jsCanvas canvas"></canvas>
+      <div class="controls">
+        <div class="controls__range">
+          <input class="jsRange" type="range" min="0.1" max="10.1" step="0.5" />
+        </div>
+        <div class="controls__btns">
+          <button class="jsMode">Fill</button>
+          <button class="jsSave">Save</button>
+        </div>
+        <div class="jsColors controls__colors">
+          <div
+            class="controls__color jsColor"
+            style="background-color: #ffffff"
+          ></div>
+          <div
+            class="controls__color jsColor"
+            style="background-color: #000000"
+          ></div>
+          <div
+            class="controls__color jsColor"
+            style="background-color: #8854d0"
+          ></div>
+          <div
+            class="controls__color jsColor"
+            style="background-color: #3867d6"
+          ></div>
+          <div
+            class="controls__color jsColor"
+            style="background-color: #2d98da"
+          ></div>
+          <div
+            class="controls__color jsColor"
+            style="background-color: #0fb9b1"
+          ></div>
+          <div
+            class="controls__color jsColor"
+            style="background-color: #20bf6b"
+          ></div>
+          <div
+            class="controls__color jsColor"
+            style="background-color: #f7b731"
+          ></div>
+          <div
+            class="controls__color jsColor"
+            style="background-color: #fa8231"
+          ></div>
+          <div
+            class="controls__color jsColor"
+            style="background-color: #eb3b5a"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/8307086f67.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="quicknote.js"></script>
+  </body>
+</html>
