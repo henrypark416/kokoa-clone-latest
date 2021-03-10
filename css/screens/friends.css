@@ -52,6 +52,6 @@
   justify-content: center;
   align-items: center;
   font-size: 100px;
-  animation: hideSpashScreen 0.4s ease-in-out forwards;
-  animation-delay: 0.6s;
+  animation: hideSpashScreen 0.2s ease-in-out forwards;
+  animation-delay: 0.2s;
 }
